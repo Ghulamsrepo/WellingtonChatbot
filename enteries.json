@@ -1,0 +1,163 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Wassup",
+          "Sup",
+          "Good Morning",
+          "Good Afternoon"
+        ],
+        "responses": [
+          "Hey:), how're you today?",
+          "Hello, thanks for visiting. Hope you're well today",
+          "Hi there, What can I do for you today?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "good bye", "take care"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "greeting2",
+        "patterns": ["how are you today?", "how are you feeling?", "I am fine yourself?","Im good you?","good you?", "I am good thanks for asking, yourself?"],
+        "responses": ["I am great! thank you for asking, what are you after today?", "I am well thank you for asking, what can I do for you?", "I am fine thanks, how can I help?"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "results",
+        "patterns": [
+          "how can I access my module results?",
+          "Where can I see my results?",
+          "When will the results be available?",
+          "When can I see my results",
+          "module results",
+          "results"
+        ],
+        "responses": [
+          "You can access your module results at any time by visiting https://www.uel.ac.uk/study/students/uel-direct is there anything else I can help you with today?"
+        ]
+      },
+      {
+        "tag": "timetable",
+        "patterns": [
+          "How can I access my timetable?",
+          "Where is the timetable?",
+          "How can I check the timetable?",
+          "timetable?",
+          "time table"
+        ],
+        "responses": [
+          "You can access your timetable at any time by visiting this link! https://ueltt.uel.ac.uk/calendar for more inforamtion. What else can I assist you with today?"
+        ]
+      },
+      {
+        "tag": "studenthub",
+        "patterns": [
+          "when does the student hub open?",
+          "what are the opening times for the student hub?",
+          "is the student hub available today?",
+          "student hub"
+        ],
+        "responses": [
+          "The Student Hub operates Monday to Friday 8:30am to 7pm, feel free to send an email if you need to contact them at thehub@uel.ac.uk"
+        ]
+      },
+      {
+        "tag": "idcard",
+        "patterns": [
+          "where can I get my student id card?",
+          "I have lost my id card, where can I get a replacement?",
+          "need an id card",
+          "id card"
+        ],
+        "responses": [
+          "If you are a new student, your ID card will be posted to your address, otherwise visit https://estore.uel.ac.uk/product-catalogue/student-support/replacement-id-card"
+        ]
+      },
+      {
+        "tag": "Tuition Fees",
+        "patterns": [
+          "How can I pay my tuitions fees?",
+          "where to pay tuition fees",
+          "when can I pay my tuition fees?",
+          "tuition fees",
+          "fees"
+        ],
+        "responses": [
+          "Payments toward your tuition should be made using Flywire. Please visit https://www.uel.ac.uk/study/student-life/making-payment for more information."
+        ]
+      },
+      {
+        "tag": "password",
+        "patterns": [
+          "I have forgotten my password",
+          "My password is not working",
+          "where can I reset my password?",
+          "password",
+          "my password for my online account is not working",
+          "pass word"
+        ],
+        "responses": [
+          "If you are logging in for the first time please watch https://www.youtube.com/watch?v=dQp9UjJPLss, otherwise visit https://passwordreset.microsoftonline.com/?whr=uel.ac.uk"
+        ]
+      },
+      {
+        "tag": "canteen",
+        "patterns": [
+          "Where can I find the canteen?",
+          "Does the university have a canteen?",
+          "where can I get food?",
+          "Is the food at the canteen halal?",
+          "where canteen?",
+          "where is the dinner hall?",
+          "where is the food hall?",
+          "Is there halal food available in the canteen?"
+        ],
+        "responses": [
+          "UEL has an amazing canteen which is located on the bottom floor of the east building, there is also halal food selections available."
+        ]
+      },
+      {
+        "tag": "Sports Dock",
+        "patterns": [
+          "Where can I play sports?",
+          "is their a sports area?",
+          "Is their a gym?",
+          "where is sports dock",
+          "sports"
+        ],
+        "responses": [
+          "UEL has a great sports dock which is located towards the east side of the university, you can engage in multiple sports activities and visit our gym!"
+        ]
+      },
+      {
+        "tag": "Humour",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "joke"
+        ],
+        "responses": [
+          "What do you call it when one IT professional gets surgeries on his fingers? It is called tech knuckle support!",
+          "Why was the new head IT official of IBM hospitalized? Because he didn't know and accidentally touched the firewall"
+        ]
+      }
+    ]
+  }
